@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Responsive</title>
+        <title>flexbox</title>
         <style>
-            body{
-                text-align : center;
+            #container{
+                display: flex;
+                flex-wrap: wrap;
             }
 
-            @media (min-width : 500px){
-                body{
-                    width: 1000px;
-                    height: 200px;
-                    background-color: blue;
-                }
-            }
-            @media (max-width : 499px){
-                body{
-                    width: 500px;
-                    height: 100px;
-                    background-color: aqua;
-                }
+            #container > div{
+                background-color: springgreen;
+                font-size: 10px;
+                margin: 10px;
+                padding: 10px;
+                width: 200px;
+                height: 100px;
             }
         </style>
     </head>
     <body>
-        <h1>Welcome to my web page</h1>
+        <div id="container">
+            <div>1. Hello!, My name is Ayush</div>
+            <div>2. Hello!, My name is Ayush</div>
+            <div>3. Hello!, My name is Ayush</div>
+            <div>4. Hello!, My name is Ayush</div>
+            <div>5. Hello!, My name is Ayush</div>
+            <div>6. Hello!, My name is Ayush</div>
+            <div>7. Hello!, My name is Ayush</div>
+            <div>8. Hello!, My name is Ayush</div>
+            <div>9. Hello!, My name is Ayush</div>
+            <div>10. Hello!, My name is Ayush</div>
+            <div>11. Hello!, My name is Ayush</div>
+            <div>12.Hello!, My name is Ayush</div>
+        </div>
     </body>
 </html>
